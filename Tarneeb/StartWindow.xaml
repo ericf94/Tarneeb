@@ -7,8 +7,19 @@
         mc:Ignorable="d"
         Title="StartWindow" Height="400" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-        <Label>Would you like to play a game of Tarneeb?</Label>
-        <Button Height="45">Start New Game</Button>
-        <Button Height="45" Margin="0,245,0,94">Exit</Button>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock FontSize="32" TextWrapping="wrap" TextAlignment="Center" FontFamily="Calibri" FontWeight="Bold" Grid.ColumnSpan="3"><Run/><LineBreak/><Run Text="Hi, would you play a game of Tarneeb?"/></TextBlock>
+        <Button Height="45" Width="300" Grid.Row="1" Grid.ColumnSpan="3">Start New Game</Button>
+        <Button Height="45" Width="300" Grid.Row="2" Grid.ColumnSpan="3">Exit</Button>
     </Grid>
 </Window>
