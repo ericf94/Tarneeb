@@ -19,6 +19,7 @@ namespace Tarneeb
 
         }
 
+        //Upon MainWindow loading, open start menu
         private void Load_StartWindow(object sender, RoutedEventArgs e)
         {
             StartWindow window = new StartWindow();

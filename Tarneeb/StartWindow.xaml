@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="StartWindow" Height="400" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-
+        <Label>Would you like to play a game of Tarneeb?</Label>
+        <Button Height="45">Start New Game</Button>
+        <Button Height="45" Margin="0,245,0,94">Exit</Button>
     </Grid>
 </Window>
