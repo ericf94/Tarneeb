@@ -61,11 +61,6 @@ namespace Tarneeb
             //set is flipped or not
             this.isFlipped = isFlipped;
             this.cardImage = GetCardImagePath(suit, card, isFlipped);
-
-
-
-
-
         }
 
         public Card(Suits suit, CardNumber card)
@@ -79,10 +74,6 @@ namespace Tarneeb
             //set is flipped or not
             this.isFlipped = false;
             this.cardImage = GetCardImagePath(suit, card, isFlipped);
-
-
-
-
 
         }
 
