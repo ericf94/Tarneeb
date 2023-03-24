@@ -8,9 +8,10 @@
         Title="StartWindow" Height="400" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
             <RowDefinition />
             <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -18,8 +19,8 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <TextBlock FontSize="32" TextWrapping="wrap" TextAlignment="Center" FontFamily="Calibri" FontWeight="Bold" Grid.ColumnSpan="3"><Run/><LineBreak/><Run Text="Hi, would you play a game of Tarneeb?"/></TextBlock>
-        <Button Height="45" Width="300" Grid.Row="1" Grid.ColumnSpan="3">Start New Game</Button>
-        <Button Height="45" Width="300" Grid.Row="2" Grid.ColumnSpan="3">Exit</Button>
+        <TextBlock FontSize="32" TextWrapping="wrap" TextAlignment="Center" FontFamily="Calibri" FontWeight="Bold" Grid.ColumnSpan="3"><Run/><LineBreak/><Run Text="Hi, would you play a "/><LineBreak/><Run Text="game of Tarneeb?"/></TextBlock>
+        <Button Height="45" Width="250" Grid.Row="1" Grid.ColumnSpan="3">Start New Game</Button>
+        <Button Height="45" Width="250" Grid.Row="2" Grid.ColumnSpan="3">Exit</Button>
     </Grid>
 </Window>
