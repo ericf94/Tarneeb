@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ericf\\OneDrive\\Desktop\\DURHAM 2022-2023\\OOP2\\Project\\Tarneeb\\Tarneeb.csproj",
+      "projectUniqueName": "C:\\Users\\ericf\\Source\\Repos\\Tarneeb\\Tarneeb\\Tarneeb.csproj",
       "projectName": "Tarneeb",
-      "projectPath": "C:\\Users\\ericf\\OneDrive\\Desktop\\DURHAM 2022-2023\\OOP2\\Project\\Tarneeb\\Tarneeb.csproj",
+      "projectPath": "C:\\Users\\ericf\\Source\\Repos\\Tarneeb\\Tarneeb\\Tarneeb.csproj",
       "packagesPath": "C:\\Users\\ericf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ericf\\OneDrive\\Desktop\\DURHAM 2022-2023\\OOP2\\Project\\Tarneeb\\obj\\",
+      "outputPath": "C:\\Users\\ericf\\Source\\Repos\\Tarneeb\\Tarneeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -8,5 +8,6 @@ namespace Tarneeb
 {
     internal class Class1
     {
+        test
     }
 }
