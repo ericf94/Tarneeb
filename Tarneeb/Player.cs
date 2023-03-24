@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Tarneeb
 {
-    internal class Class1
+    internal class Player
     {
-        test
+        
     }
 }
