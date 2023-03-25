@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\ericf\source\repos\Tarneeb\Tarneeb\App.xaml
-2-1149895725
+51696111046
 
-11-767330690
+14-1438253276
 194618410957
-MainWindow.xaml;StartWindow.xaml;
+BiddingWindow.xaml;GameScoreWindow.xaml;MainWindow.xaml;SettingsWindow.xaml;StartWindow.xaml;
 
 True
 

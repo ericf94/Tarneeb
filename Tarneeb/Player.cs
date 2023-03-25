@@ -8,6 +8,14 @@ namespace Tarneeb
 {
     internal class Player
     {
-        
+        //Player number - 1-4
+        private int playerNumber;
+
+        public Player()
+        {
+               
+        }
+
+
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tarneeb"
         mc:Ignorable="d"
-        Title="StartWindow" Height="400" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="" Height="400" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="150"/>
@@ -21,6 +21,6 @@
 
         <TextBlock FontSize="32" TextWrapping="wrap" TextAlignment="Center" FontFamily="Calibri" FontWeight="Bold" Grid.ColumnSpan="3"><Run/><LineBreak/><Run Text="Hi, would you play a "/><LineBreak/><Run Text="game of Tarneeb?"/></TextBlock>
         <Button Height="45" Width="250" Grid.Row="1" Grid.ColumnSpan="3" Click="StartGame">Start New Game</Button>
-        <Button Height="45" Width="250" Grid.Row="2" Grid.ColumnSpan="3">Exit</Button>
+        <Button Height="45" Width="250" Grid.Row="2" Grid.ColumnSpan="3" Click="ExitGame">Exit</Button>
     </Grid>
 </Window>

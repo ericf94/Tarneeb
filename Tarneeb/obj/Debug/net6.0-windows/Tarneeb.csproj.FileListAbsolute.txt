@@ -21,3 +21,9 @@ C:\Users\ericf\Source\Repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\refint\Tarn
 C:\Users\ericf\Source\Repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\Tarneeb.pdb
 C:\Users\ericf\Source\Repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\Tarneeb.genruntimeconfig.cache
 C:\Users\ericf\Source\Repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\ref\Tarneeb.dll
+C:\Users\ericf\source\repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\BiddingWindow.g.cs
+C:\Users\ericf\source\repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\SettingsWindow.g.cs
+C:\Users\ericf\source\repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\BiddingWindow.baml
+C:\Users\ericf\source\repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\SettingsWindow.baml
+C:\Users\ericf\source\repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\GameScoreWindow.g.cs
+C:\Users\ericf\source\repos\Tarneeb\Tarneeb\obj\Debug\net6.0-windows\GameScoreWindow.baml
