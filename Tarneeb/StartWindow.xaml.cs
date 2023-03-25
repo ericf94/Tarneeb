@@ -23,5 +23,12 @@ namespace Tarneeb
         {
             InitializeComponent();
         }
+
+        private void StartGame(object sender, RoutedEventArgs e)
+        {
+            MainWindow.DealHand();
+            //Close StartWindow
+            this.Close();
+        }
     }
 }

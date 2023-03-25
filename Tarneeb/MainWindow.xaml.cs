@@ -26,6 +26,12 @@ namespace Tarneeb
             window.Show();
             window.Topmost = true;
         }
+
+
+        internal static void DealHand()
+        {
+            Deck deck = new Deck();
+        }
     }
 
 }

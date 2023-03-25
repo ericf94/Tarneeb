@@ -20,7 +20,7 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock FontSize="32" TextWrapping="wrap" TextAlignment="Center" FontFamily="Calibri" FontWeight="Bold" Grid.ColumnSpan="3"><Run/><LineBreak/><Run Text="Hi, would you play a "/><LineBreak/><Run Text="game of Tarneeb?"/></TextBlock>
-        <Button Height="45" Width="250" Grid.Row="1" Grid.ColumnSpan="3">Start New Game</Button>
+        <Button Height="45" Width="250" Grid.Row="1" Grid.ColumnSpan="3" Click="StartGame">Start New Game</Button>
         <Button Height="45" Width="250" Grid.Row="2" Grid.ColumnSpan="3">Exit</Button>
     </Grid>
 </Window>
