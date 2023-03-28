@@ -53,7 +53,7 @@ namespace Tarneeb {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tarneeb;component/biddingwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tarneeb;V1.0.0.0;component/biddingwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BiddingWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

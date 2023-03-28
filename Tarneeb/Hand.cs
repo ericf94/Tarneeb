@@ -8,5 +8,9 @@ namespace Tarneeb
 {
     internal class Hand
     {
+
+        //an array that holds the players cards
+        public List<Card> playerHand = new List<Card>();
+
     }
 }

@@ -67,14 +67,41 @@ namespace Tarneeb
             //Shuffle Cards
             deck.Shuffle();
 
+            //Create players
+            Player playerOne = new Player();
+            Player playerTwo = new Player();
+            Player playerThree = new Player();
+            Player playerFour = new Player();
+
             //Select Dealer
 
             //Deal Cards (starting with player after dealer until all cards dealt)  
         }
 
-        internal static void DealCards()
+        //Deal Cards (starting with player after dealer until all cards dealt)
+        internal static void DealCards(Deck deck, Player playerOne, Player playerTwo, Player playerThree, Player playerFour)
         {
 
+            //put players into array
+            Player[] players = { playerOne, playerTwo, playerThree, playerFour };
+            int playerIndex = 0;
+
+            for (int i = 0; i < 52; i++)
+            {
+                //add value to new card taken out of deck
+                Card card = deck.TakeCard();
+
+                //add card to player list
+                players[playerIndex].PlayerHand.Add(card);
+
+                playerIndex++;
+
+                //if playerIndex is above 4, it resets back to first player
+                if (playerIndex >= 4)
+                {
+                    playerIndex = 0;
+                }
+            }
         }
     }
 
